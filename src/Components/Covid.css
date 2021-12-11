@@ -1,0 +1,91 @@
+
+body{
+    background-color: rgb(12, 2, 2);
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+    color: rgb(218, 13, 13);
+    font-size:2vw ;
+
+}
+h2{
+    color: white;
+    font-size: 2vw ;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.card{
+     
+    width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 5px;
+   
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card_name{
+    font-size: 2vw;
+    font-weight: bold;
+    margin:auto;
+} 
+
+ .card_name span {
+    font-size:1vw;
+} 
+
+.card_total {
+    font-size: 2.5vw;
+    font-weight: bold;
+
+} 
+.c1,.c5{
+   
+    background-color: rgb( 66, 109, 188);
+}
+.c2{
+    background-color: rgb(0, 150, 0) ;
+}
+.c3{
+    background-color: rgb(229, 205, 88);
+}
+.c6{
+ 
+    background-color: rgb(203, 183, 52);
+}
+.c4{
+    background-color: rgb(196, 89, 0);
+}
+
+.card_inner{
+    color: rgb(255, 255, 254);
+    text-shadow: 0 1px 0 #ccc,
+         
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    
+    
+}
